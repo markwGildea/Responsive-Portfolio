@@ -213,3 +213,41 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 980px) {
+
+	.wrapper {
+		width: 100%;
+		padding: 20px;
+	}
+	#main-content,
+	#sidebar {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.wrapper {
+		width: 100%;
+		padding: 20px;
+	}
+	#main-content,
+	#sidebar {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	.wrapper {
+		width: 100%;
+		padding: 20px;
+	}
+	#main-content,
+	#sidebar {
+		width: 100%;
+	}
+
+}
