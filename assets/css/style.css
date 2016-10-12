@@ -52,7 +52,7 @@ h3 {
 	color: #fff;
 	overflow: auto;
 	border-bottom: 2px solid #ccc;
-	position: fixed;
+	position: static;
 	width: 100%;
 }
 #logo {
@@ -129,7 +129,7 @@ h3,
 /*main*/
 
 #main-container {
-	padding-top: 130px;
+	padding-top: 0px;
 }
 .main-section {
 	background: #fff;
@@ -216,38 +216,29 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
-	.wrapper {
+	#main-container,
+	.sidebar {
 		width: 100%;
-		padding: 20px;
-	}
-	#main-content,
-	#sidebar {
-		width: 100%;
+		max-width: none;
 	}
 
 }
 
 @media screen and (max-width: 768px) {
 
-	.wrapper {
+	#main-container,
+	.sidebar {
 		width: 100%;
-		padding: 20px;
-	}
-	#main-content,
-	#sidebar {
-		width: 100%;
+		max-width: none;
 	}
 }
 
 @media screen and (max-width: 640px) {
 
-	.wrapper {
+	#main-container,
+	.sidebar {
 		width: 100%;
-		padding: 20px;
-	}
-	#main-content,
-	#sidebar {
-		width: 100%;
+		max-width: none;
 	}
 
 }
