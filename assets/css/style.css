@@ -224,7 +224,7 @@ input[type=submit] {
 	.main-section,
 	.sidebar {
 			width: 100%;
-			max-width: none;
+			max-width: 980px;
 	}
 	.sidebar {
 			
@@ -236,12 +236,12 @@ input[type=submit] {
 
 	#main-container, 
 	.container {
-			width: 100%;
+		width: 100%;
 	}
 	.main-section,
 	.sidebar {
-			width: 100%;
-			max-width: none;
+		width: 100%;
+		max-width: 768px;
 	}
 	.sidebar {
 	
@@ -252,22 +252,31 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
 
 	#masthead {
-			position: static;
+		position: static;
+		width: 100%;
 
+	}
+	#logo {
+		width: 100%;
+	}
+	nav,
+	nav a,
+	nav a:first-child {
+		width: 100%;
 	}
 	#main-container, 
 	.container {
-			width: 100%;
-			max-width: none;
-			padding-top: 0px;
+		width: 100%;
+		max-width: 640px;
+		padding-top: 20px;
 	}
 	.main-section,
 	.sidebar {
-			width: 100%;
-			max-width: none;
+		width: 100%;
+		max-width: none;
 	}
 	.sidebar {
-			margin-top: 0px;
+		margin-top: 0px;
 	}
 
 }
