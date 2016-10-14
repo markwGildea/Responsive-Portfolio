@@ -283,10 +283,19 @@ input[type=submit] {
 		width: 100%;
 		text-align: center;
 		margin-top: 0px;
-		padding: 8px;
+		padding: 10px;
 	}
 	nav a {
 		width: 32%;
 		margin: 0px;
+	}
+	.auth-image {
+		width: 100%;
+	}
+	.work img {
+		width: 100%;
+	}
+	.work {
+		width: 100%;
 	}
 }
